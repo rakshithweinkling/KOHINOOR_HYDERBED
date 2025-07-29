@@ -1,0 +1,155 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"55 mcc_generated_files/mtouch/mtouch.h
+[v _MTOUCH_Service_Mainloop `(uc ~T0 @X0 0 ef ]
+"66 mcc_generated_files/mtouch/mtouch_api_example.c
+[c E91 0 .. ]
+[n E91 mtouch_button_names T1  ]
+"117 mcc_generated_files/mtouch/mtouch_button.h
+[v _MTOUCH_Button_isPressed `(uc ~T0 @X0 0 ef1`E91 ]
+[; ;stdint.h: 13: typedef signed char int8_t;
+[; ;stdint.h: 20: typedef signed int int16_t;
+[; ;stdint.h: 28: typedef signed short long int int24_t;
+[; ;stdint.h: 36: typedef signed long int int32_t;
+[; ;stdint.h: 43: typedef unsigned char uint8_t;
+[; ;stdint.h: 49: typedef unsigned int uint16_t;
+[; ;stdint.h: 56: typedef unsigned short long int uint24_t;
+[; ;stdint.h: 63: typedef unsigned long int uint32_t;
+[; ;stdint.h: 71: typedef signed char int_least8_t;
+[; ;stdint.h: 78: typedef signed int int_least16_t;
+[; ;stdint.h: 90: typedef signed short long int int_least24_t;
+[; ;stdint.h: 98: typedef signed long int int_least32_t;
+[; ;stdint.h: 105: typedef unsigned char uint_least8_t;
+[; ;stdint.h: 111: typedef unsigned int uint_least16_t;
+[; ;stdint.h: 121: typedef unsigned short long int uint_least24_t;
+[; ;stdint.h: 128: typedef unsigned long int uint_least32_t;
+[; ;stdint.h: 137: typedef signed char int_fast8_t;
+[; ;stdint.h: 144: typedef signed int int_fast16_t;
+[; ;stdint.h: 156: typedef signed short long int int_fast24_t;
+[; ;stdint.h: 164: typedef signed long int int_fast32_t;
+[; ;stdint.h: 171: typedef unsigned char uint_fast8_t;
+[; ;stdint.h: 177: typedef unsigned int uint_fast16_t;
+[; ;stdint.h: 187: typedef unsigned short long int uint_fast24_t;
+[; ;stdint.h: 194: typedef unsigned long int uint_fast32_t;
+[; ;stdint.h: 200: typedef int32_t intmax_t;
+[; ;stdint.h: 205: typedef uint32_t uintmax_t;
+[; ;stdint.h: 210: typedef int16_t intptr_t;
+[; ;stdint.h: 215: typedef uint16_t uintptr_t;
+[; ;stdbool.h: 12: typedef unsigned char bool;
+[; ;mtouch_sensor.h: 45: enum mtouch_sensor_names
+[; ;mtouch_sensor.h: 46: {
+[; ;mtouch_sensor.h: 47: Sensor_ANC2 = 0
+[; ;mtouch_sensor.h: 48: };
+[; ;mtouch_sensor.h: 50: enum mtouch_sensor_error
+[; ;mtouch_sensor.h: 51: {
+[; ;mtouch_sensor.h: 52: MTOUCH_SENSOR_ERROR_none = 0,
+[; ;mtouch_sensor.h: 53: MTOUCH_SENSOR_ERROR_invalid_index = -1,
+[; ;mtouch_sensor.h: 54: MTOUCH_SENSOR_ERROR_interrupt_notEnabled = -2,
+[; ;mtouch_sensor.h: 55: MTOUCH_SENSOR_ERROR_invalid_calibrate= -3,
+[; ;mtouch_sensor.h: 56: MTOUCH_SENSOR_ERROR_tooManyRetries = -4,
+[; ;mtouch_sensor.h: 57: MTOUCH_SENSOR_ERROR_scanOverrun = -5,
+[; ;mtouch_sensor.h: 58: MTOUCH_SENSOR_ERROR_interruptedScan = -6
+[; ;mtouch_sensor.h: 59: };
+[; ;mtouch_sensor.h: 66: typedef uint16_t mtouch_sensor_sample_t;
+[; ;mtouch_sensor.h: 70: typedef uint8_t mtouch_sensor_mask_t;
+[; ;mtouch_sensor.h: 80: enum mtouch_sensor_error MTOUCH_Sensor_Initialize (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 81: void MTOUCH_Sensor_Scan_Initialize (void);
+[; ;mtouch_sensor.h: 82: void MTOUCH_Sensor_InitializeAll (void);
+[; ;mtouch_sensor.h: 83: void MTOUCH_Sensor_SetSampledCallback(void (*callback)(enum mtouch_sensor_names sensor));
+[; ;mtouch_sensor.h: 84: bool MTOUCH_Sensor_SampleAll (void);
+[; ;mtouch_sensor.h: 85: bool MTOUCH_Sensor_isSamplingComplete(void);
+[; ;mtouch_sensor.h: 86: void MTOUCH_Sensor_postAcquisitionProcess(void);
+[; ;mtouch_sensor.h: 87: void MTOUCH_Sensor_startLowpower (void);
+[; ;mtouch_sensor.h: 88: void MTOUCH_Sensor_exitLowpower (void);
+[; ;mtouch_sensor.h: 90: bool MTOUCH_Sensor_isAnySensorActive (void);
+[; ;mtouch_sensor.h: 91: bool MTOUCH_Sensor_isActive (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 92: bool MTOUCH_Sensor_wasSampled (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 93: bool MTOUCH_Sensor_isCalibrated (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 94: bool MTOUCH_Sensor_isEnabled (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 95: void MTOUCH_Sensor_Sampled_ResetAll (void);
+[; ;mtouch_sensor.h: 96: void MTOUCH_Sensor_Disable (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 97: void MTOUCH_Sensor_Enable (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 98: void MTOUCH_Sensor_Calibrate (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 99: mtouch_sensor_sample_t MTOUCH_Sensor_RawSample_Get (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 100: mtouch_sensor_sample_t MTOUCH_Sensor_CVDSample_Get (enum mtouch_sensor_names sensor);
+[; ;mtouch_sensor.h: 101: uint8_t MTOUCH_Sensor_Oversampling_Get (enum mtouch_sensor_names name);
+[; ;mtouch_sensor.h: 102: void MTOUCH_Sensor_Oversampling_Set (enum mtouch_sensor_names name, uint8_t value);
+[; ;mtouch_sensor.h: 105: void MTOUCH_Sensor_NotifyInterruptOccurred(void);
+[; ;mtouch_button.h: 50: enum mtouch_button_names
+[; ;mtouch_button.h: 51: {
+[; ;mtouch_button.h: 52: T1 = 0
+[; ;mtouch_button.h: 53: };
+[; ;mtouch_button.h: 60: typedef uint8_t mtouch_buttonmask_t;
+[; ;mtouch_button.h: 62: typedef uint16_t mtouch_button_statecounter_t;
+[; ;mtouch_button.h: 66: typedef uint16_t mtouch_button_baselinecounter_t;
+[; ;mtouch_button.h: 70: typedef uint16_t mtouch_button_reading_t;
+[; ;mtouch_button.h: 75: typedef uint32_t mtouch_button_baseline_t;
+[; ;mtouch_button.h: 80: typedef int8_t mtouch_button_deviation_t;
+[; ;mtouch_button.h: 84: typedef uint8_t mtouch_button_threshold_t;
+[; ;mtouch_button.h: 88: typedef uint8_t mtouch_button_scaling_t;
+[; ;mtouch_button.h: 100: void MTOUCH_Button_SetPressedCallback (void (*callback)(enum mtouch_button_names button));
+[; ;mtouch_button.h: 101: void MTOUCH_Button_SetNotPressedCallback(void (*callback)(enum mtouch_button_names button));
+[; ;mtouch_button.h: 103: void MTOUCH_Button_Initialize (enum mtouch_button_names button);
+[; ;mtouch_button.h: 104: void MTOUCH_Button_InitializeAll (void);
+[; ;mtouch_button.h: 105: void MTOUCH_Button_ServiceAll (void);
+[; ;mtouch_button.h: 106: void MTOUCH_Button_Tick (void);
+[; ;mtouch_button.h: 107: mtouch_button_deviation_t MTOUCH_Button_Deviation_Get (enum mtouch_button_names button);
+[; ;mtouch_button.h: 108: mtouch_button_reading_t MTOUCH_Button_Reading_Get (enum mtouch_button_names button);
+[; ;mtouch_button.h: 109: mtouch_button_reading_t MTOUCH_Button_Baseline_Get (enum mtouch_button_names button);
+[; ;mtouch_button.h: 110: mtouch_button_scaling_t MTOUCH_Button_Scaling_Get (enum mtouch_button_names button);
+[; ;mtouch_button.h: 111: void MTOUCH_Button_Scaling_Set (enum mtouch_button_names button,mtouch_button_scaling_t scaling);
+[; ;mtouch_button.h: 112: mtouch_button_threshold_t MTOUCH_Button_Threshold_Get (enum mtouch_button_names button);
+[; ;mtouch_button.h: 113: void MTOUCH_Button_Threshold_Set (enum mtouch_button_names button,mtouch_button_threshold_t threshold);
+[; ;mtouch_button.h: 114: uint8_t MTOUCH_Button_Oversampling_Get(enum mtouch_button_names button);
+[; ;mtouch_button.h: 115: void MTOUCH_Button_Oversampling_Set(enum mtouch_button_names button,uint8_t oversampling);
+[; ;mtouch_button.h: 117: bool MTOUCH_Button_isPressed (enum mtouch_button_names button);
+[; ;mtouch_button.h: 118: bool MTOUCH_Button_isInitialized (enum mtouch_button_names button);
+[; ;mtouch_button.h: 119: mtouch_buttonmask_t MTOUCH_Button_Buttonmask_Get(void);
+[; ;mtouch_button.h: 120: uint8_t MTOUCH_Button_State_Get (enum mtouch_button_names button);
+[; ;mtouch.h: 54: void MTOUCH_Initialize (void);
+[; ;mtouch.h: 55: bool MTOUCH_Service_Mainloop (void);
+[; ;mtouch.h: 56: void MTOUCH_Tick (void);
+[; ;mtouch.h: 57: bool MTOUCH_Service_isInProgress (void);
+[; ;mtouch.h: 58: void MTOUCH_requestInitSet (void);
+[; ;mtouch.h: 59: bool MTOUCH_requestInitGet (void);
+"58 mcc_generated_files/mtouch/mtouch_api_example.c
+[v _touch_example `(v ~T0 @X0 1 ef ]
+"59
+{
+[; ;mtouch_api_example.c: 58: void touch_example(void)
+[; ;mtouch_api_example.c: 59: {
+[e :U _touch_example ]
+[f ]
+[; ;mtouch_api_example.c: 63: if(MTOUCH_Service_Mainloop())
+"63
+[e $ ! != -> ( _MTOUCH_Service_Mainloop ..  `i -> -> -> 0 `i `uc `i 2  ]
+[; ;mtouch_api_example.c: 64: {
+"64
+{
+[; ;mtouch_api_example.c: 66: if (MTOUCH_Button_isPressed(0))
+"66
+[e $ ! != -> ( _MTOUCH_Button_isPressed (1 -> -> 0 `i `E91 `i -> -> -> 0 `i `uc `i 3  ]
+[; ;mtouch_api_example.c: 67: {
+"67
+{
+"71
+}
+[; ;mtouch_api_example.c: 71: }
+[e $U 4  ]
+"72
+[e :U 3 ]
+[; ;mtouch_api_example.c: 72: else
+[; ;mtouch_api_example.c: 73: {
+"73
+{
+"76
+}
+[e :U 4 ]
+"81
+}
+[e :U 2 ]
+[; ;mtouch_api_example.c: 76: }
+[; ;mtouch_api_example.c: 81: }
+[; ;mtouch_api_example.c: 85: }
+"85
+[e :UE 1 ]
+}

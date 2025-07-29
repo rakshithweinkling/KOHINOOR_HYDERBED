@@ -1,0 +1,1769 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18855 ]
+[d frameptr 6 ]
+"66 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_api_example.c
+[e E107 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+"83 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[e E14424 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+[e E14347 mtouch_sensor_names `uc
+Sensor_ANA0 0
+Sensor_ANA1 1
+Sensor_ANA2 2
+Sensor_ANA3 3
+Sensor_ANA4 4
+]
+[e E14495 mtouch_button_state `uc
+MTOUCH_BUTTON_STATE_initializing 0
+MTOUCH_BUTTON_STATE_notPressed 1
+MTOUCH_BUTTON_STATE_pressed 2
+]
+[e E14499 mtouch_button_hysteresis_thresholds `uc
+HYST_50_PERCENT 1
+HYST_25_PERCENT 2
+HYST_12_5_PERCENT 3
+HYST_6_25_PERCENT 4
+HYST_MAX 5
+]
+"147 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[e E14537 mtouch_sensor_names `uc
+Sensor_ANA0 0
+Sensor_ANA1 1
+Sensor_ANA2 2
+Sensor_ANA3 3
+Sensor_ANA4 4
+]
+"232
+[e E14543 mtouch_sensor_error `c
+MTOUCH_SENSOR_ERROR_none 0
+MTOUCH_SENSOR_ERROR_invalid_index -1
+MTOUCH_SENSOR_ERROR_interrupt_notEnabled -2
+MTOUCH_SENSOR_ERROR_invalid_calibrate -3
+MTOUCH_SENSOR_ERROR_tooManyRetries -4
+MTOUCH_SENSOR_ERROR_scanOverrun -5
+MTOUCH_SENSOR_ERROR_interruptedScan -6
+]
+"116 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/adcc.c
+[e E14259 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"117 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\ir_handler.c
+[e E14479 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+"13 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\load_handler.c
+[e E14460 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+"39 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\main.c
+[e E14460 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+"7 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\moduleconfigfile.c
+[e E14460 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+"45 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\touch_handler.c
+[e E14460 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+"62 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\uart_handler.c
+[e E14460 mtouch_button_names `uc
+T4 0
+T2 1
+T3 2
+T1 3
+ALLOFF 4
+]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+[v i1_abs abs `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+[v i1___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"20 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\ir_handler.c
+[v _decodeIRSignal decodeIRSignal `(v  1 e 1 0 ]
+"81
+[v _ir_handler ir_handler `(v  1 e 1 0 ]
+"12 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\load_handler.c
+[v _setLightState setLightState `(v  1 e 1 0 ]
+"25
+[v _updateLight updateLight `(v  1 e 1 0 ]
+"30
+[v _uartLight uartLight `(v  1 e 1 0 ]
+"61
+[v _handleFanToggle handleFanToggle `(v  1 e 1 0 ]
+"101
+[v _handleFanToggleU handleFanToggleU `(v  1 e 1 0 ]
+"129
+[v _handleFanSpeedChange handleFanSpeedChange `(v  1 e 1 0 ]
+"15 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"64 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"307
+[v _ADCC_ThresholdISR ADCC_ThresholdISR `(v  1 e 1 0 ]
+"316
+[v _ADCC_SetADTIInterruptHandler ADCC_SetADTIInterruptHandler `(v  1 e 1 0 ]
+"319
+[v _ADCC_DefaultInterruptHandler ADCC_DefaultInterruptHandler `(v  1 e 1 0 ]
+"66 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"99
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(uc  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+[v i1_EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"144
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"146
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"154
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"52 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"84
+[v _InitExternal_INT InitExternal_INT `(v  1 e 1 0 ]
+"50 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"74
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(ui  1 e 2 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"149
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"180
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"202
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+[v i1_DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"82 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch.c
+[v _MTOUCH_Initialize MTOUCH_Initialize `(v  1 e 1 0 ]
+"99
+[v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `(uc  1 e 1 0 ]
+"135
+[v _MTOUCH_Tick MTOUCH_Tick `(v  1 e 1 0 ]
+"147
+[v _MTOUCH_needReburst MTOUCH_needReburst `(uc  1 s 1 MTOUCH_needReburst ]
+"186 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_Initialize MTOUCH_Button_Initialize `(v  1 e 1 0 ]
+"198
+[v _MTOUCH_Button_InitializeAll MTOUCH_Button_InitializeAll `(v  1 e 1 0 ]
+"216
+[v _MTOUCH_Button_ServiceAll MTOUCH_Button_ServiceAll `(v  1 e 1 0 ]
+"227
+[v _Button_Service Button_Service `(v  1 s 1 Button_Service ]
+"244
+[v _Button_State_Initializing Button_State_Initializing `(v  1 s 1 Button_State_Initializing ]
+"264
+[v _Button_State_NotPressed Button_State_NotPressed `(v  1 s 1 Button_State_NotPressed ]
+"300
+[v _Button_State_Pressed Button_State_Pressed `(v  1 s 1 Button_State_Pressed ]
+"324
+[v _MTOUCH_Button_Tick MTOUCH_Button_Tick `(v  1 e 1 0 ]
+"332
+[v _Button_Tick_helper Button_Tick_helper `(v  1 s 1 Button_Tick_helper ]
+"401
+[v _MTOUCH_Button_isPressed MTOUCH_Button_isPressed `(uc  1 e 1 0 ]
+"426
+[v _Button_Deviation_Update Button_Deviation_Update `(v  1 s 1 Button_Deviation_Update ]
+"475
+[v _Button_Reading_Update Button_Reading_Update `(v  1 s 1 Button_Reading_Update ]
+"489
+[v _Button_Reading_Update_Helper Button_Reading_Update_Helper `(v  1 s 1 Button_Reading_Update_Helper ]
+"502
+[v _Button_Baseline_Initialize Button_Baseline_Initialize `(v  1 s 1 Button_Baseline_Initialize ]
+"508
+[v _Button_Baseline_Update Button_Baseline_Update `(v  1 s 1 Button_Baseline_Update ]
+"532
+[v _Button_Baseline_Get_helper Button_Baseline_Get_helper `(ui  1 s 2 Button_Baseline_Get_helper ]
+"554
+[v _Button_DefaultCallback Button_DefaultCallback `(v  1 s 1 Button_DefaultCallback ]
+"231 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Initialize MTOUCH_Sensor_Initialize `(E14543  1 e 1 0 ]
+"240
+[v _Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 Sensor_SetTrisBit ]
+[v i1_Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 i1_Sensor_SetTrisBit ]
+"269
+[v _MTOUCH_Sensor_ADCC_Initialize MTOUCH_Sensor_ADCC_Initialize `(v  1 e 1 0 ]
+"312
+[v _MTOUCH_Sensor_InitializeAll MTOUCH_Sensor_InitializeAll `(v  1 e 1 0 ]
+"325
+[v _MTOUCH_Sensor_isSamplingComplete MTOUCH_Sensor_isSamplingComplete `(uc  1 e 1 0 ]
+"345
+[v _MTOUCH_Sensor_SampleAll MTOUCH_Sensor_SampleAll `(uc  1 e 1 0 ]
+"389
+[v _MTOUCH_Sensor_Scan_Initialize MTOUCH_Sensor_Scan_Initialize `(v  1 e 1 0 ]
+"414
+[v _Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 Sensor_scheduleNextScan ]
+[v i1_Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 i1_Sensor_scheduleNextScan ]
+"476
+[v _Sensor_autoCalibration Sensor_autoCalibration `(E14543  1 s 1 Sensor_autoCalibration ]
+"526
+[v _MTOUCH_Sensor_postAcquisitionProcess MTOUCH_Sensor_postAcquisitionProcess `(v  1 e 1 0 ]
+"546
+[v _ADCC_ThresholdISR_mTouch ADCC_ThresholdISR_mTouch `(v  1 e 1 0 ]
+"559
+[v _MTOUCH_Sensor_Service MTOUCH_Sensor_Service `T(v  1 s 1 MTOUCH_Sensor_Service ]
+"617
+[v _Sensor_setSamplePeriod Sensor_setSamplePeriod `(v  1 s 1 Sensor_setSamplePeriod ]
+"629
+[v _MTOUCH_Sensor_RawSample_Get MTOUCH_Sensor_RawSample_Get `(ui  1 e 2 0 ]
+"648
+[v _Sensor_RawSample_Update Sensor_RawSample_Update `(v  1 s 1 Sensor_RawSample_Update ]
+"665
+[v _medianFilter medianFilter `(ui  1 s 2 medianFilter ]
+"706
+[v _Sensor_FrequencyHopping Sensor_FrequencyHopping `(v  1 s 1 Sensor_FrequencyHopping ]
+"720
+[v _Sensor_FrequencyHopping_Autotune_Process Sensor_FrequencyHopping_Autotune_Process `(v  1 s 1 Sensor_FrequencyHopping_Autotune_Process ]
+"797
+[v _Sensor_DefaultCallback Sensor_DefaultCallback `(v  1 s 1 Sensor_DefaultCallback ]
+"818
+[v _MTOUCH_Sensor_Enable MTOUCH_Sensor_Enable `(v  1 e 1 0 ]
+"824
+[v _MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(uc  1 e 1 0 ]
+[v i1_MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(uc  1 e 1 0 ]
+"880
+[v _MTOUCH_Sensor_Calibrate MTOUCH_Sensor_Calibrate `(v  1 e 1 0 ]
+"888
+[v _MTOUCH_Sensor_isCalibrated MTOUCH_Sensor_isCalibrated `(uc  1 e 1 0 ]
+"896
+[v _Sensor_isCalibrated Sensor_isCalibrated `T(uc  1 s 1 Sensor_isCalibrated ]
+[v i1_Sensor_isCalibrated Sensor_isCalibrated `T(uc  1 s 1 i1_Sensor_isCalibrated ]
+"901
+[v _Sensor_setCalibrated Sensor_setCalibrated `(v  1 s 1 Sensor_setCalibrated ]
+"907
+[v _Sensor_setCalibratAcqTime Sensor_setCalibratAcqTime `(v  1 s 1 Sensor_setCalibratAcqTime ]
+"914
+[v _Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(uc  1 s 1 Sensor_isCalibratingAcqTime ]
+[v i1_Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(uc  1 s 1 i1_Sensor_isCalibratingAcqTime ]
+"927
+[v _MTOUCH_Sensor_Sampled_ResetAll MTOUCH_Sensor_Sampled_ResetAll `(v  1 e 1 0 ]
+"936
+[v _MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(uc  1 e 1 0 ]
+[v i1_MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(uc  1 e 1 0 ]
+"944
+[v _Sensor_Sampled_Reset Sensor_Sampled_Reset `T(v  1 s 1 Sensor_Sampled_Reset ]
+"949
+[v _Sensor_setSampled Sensor_setSampled `T(v  1 s 1 Sensor_setSampled ]
+"954
+[v _MTOUCH_Sensor_isSampling MTOUCH_Sensor_isSampling `(uc  1 e 1 0 ]
+"989
+[v _MTOUCH_Sensor_Oversampling_Get MTOUCH_Sensor_Oversampling_Get `(uc  1 e 1 0 ]
+"997
+[v _MTOUCH_Sensor_Oversampling_Set MTOUCH_Sensor_Oversampling_Set `(v  1 e 1 0 ]
+"55 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"13 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\touch_handler.c
+[v _OnHold OnHold `(v  1 e 1 0 ]
+"45
+[v _processToggle processToggle `(v  1 e 1 0 ]
+"54
+[v _handleGeneralTouchControls handleGeneralTouchControls `(v  1 e 1 0 ]
+"68
+[v _processFanToggle processFanToggle `(v  1 e 1 0 ]
+"96
+[v _processFanSpeedControl processFanSpeedControl `(v  1 e 1 0 ]
+"116
+[v _processFanSpeedControlU processFanSpeedControlU `(v  1 e 1 0 ]
+"147
+[v _syncFanToggleState syncFanToggleState `(v  1 e 1 0 ]
+"15 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\uart_handler.c
+[v _handleUARTCommands handleUARTCommands `(v  1 e 1 0 ]
+[s S1101 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"362 C:\Program Files (x86)\Microchip\xc8\v1.43\include\pic16f18855.h
+[u S1106 . 1 `S1101 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1106  1 e 1 @11 ]
+[s S1782 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"461
+[u S1791 . 1 `S1782 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1791  1 e 1 @13 ]
+"589
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+[s S511 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"606
+[u S520 . 1 `S511 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES520  1 e 1 @17 ]
+"651
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"713
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"775
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+"837
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+"899
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+[s S1809 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"916
+[u S1818 . 1 `S1809 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1818  1 e 1 @24 ]
+"1536
+[v _ADRESL ADRESL `VEuc  1 e 1 @140 ]
+"1556
+[v _ADRESH ADRESH `VEuc  1 e 1 @141 ]
+"1570
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @142 ]
+"1640
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @143 ]
+"1710
+[v _ADACC ADACC `VEus  1 e 2 @144 ]
+"1717
+[v _ADACCL ADACCL `VEuc  1 e 1 @144 ]
+"1787
+[v _ADACCH ADACCH `VEuc  1 e 1 @145 ]
+"1857
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @147 ]
+[s S634 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"1893
+[s S642 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFRM 1 0 :2:2 
+]
+[s S646 . 1 `uc 1 nDONE 1 0 :1:0 
+]
+[s S648 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[s S653 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFRM0 1 0 :1:2 
+`uc 1 ADFRM1 1 0 :1:3 
+]
+[u S658 . 1 `S634 1 . 1 0 `S642 1 . 1 0 `S646 1 . 1 0 `S648 1 . 1 0 `S653 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES658  1 e 1 @147 ]
+"1968
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @148 ]
+[s S1366 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"1982
+[u S1372 . 1 `S1366 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1372  1 e 1 @148 ]
+"2007
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @149 ]
+[s S1302 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"2029
+[s S1307 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S1315 . 1 `S1302 1 . 1 0 `S1307 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1315  1 e 1 @149 ]
+"2084
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @150 ]
+[s S1273 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+"2105
+[s S1281 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[u S1285 . 1 `S1273 1 . 1 0 `S1281 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES1285  1 e 1 @150 ]
+"2155
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @151 ]
+[s S1334 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 ADMACT 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"2175
+[s S1341 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S1345 . 1 `S1334 1 . 1 0 `S1341 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES1345  1 e 1 @151 ]
+"2225
+[v _ADCLK ADCLK `VEuc  1 e 1 @152 ]
+"2283
+[v _ADACT ADACT `VEuc  1 e 1 @153 ]
+"2335
+[v _ADREF ADREF `VEuc  1 e 1 @154 ]
+"2376
+[v _ADCAP ADCAP `VEuc  1 e 1 @155 ]
+"2428
+[v _ADPRE ADPRE `VEuc  1 e 1 @156 ]
+"2498
+[v _ADACQ ADACQ `VEuc  1 e 1 @157 ]
+"2568
+[v _ADPCH ADPCH `VEuc  1 e 1 @158 ]
+"2626
+[v _ADCNT ADCNT `VEuc  1 e 1 @268 ]
+"2696
+[v _ADRPT ADRPT `VEuc  1 e 1 @269 ]
+"2773
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @270 ]
+"2843
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @271 ]
+"2920
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @272 ]
+"2990
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @273 ]
+"3067
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @274 ]
+"3137
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @275 ]
+"3207
+[v _ADFLTR ADFLTR `VEus  1 e 2 @276 ]
+"3214
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @276 ]
+"3284
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @277 ]
+"3361
+[v _ADERRL ADERRL `VEuc  1 e 1 @278 ]
+"3431
+[v _ADERRH ADERRH `VEuc  1 e 1 @279 ]
+"3501
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"3555
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"3616
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"3686
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"3740
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S1672 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3766
+[u S1681 . 1 `S1672 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES1681  1 e 1 @285 ]
+"3920
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S1651 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3946
+[u S1660 . 1 `S1651 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES1660  1 e 1 @286 ]
+"4100
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"11146
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @784 ]
+"11920
+[v _CCPR5L CCPR5L `VEuc  1 e 1 @796 ]
+"11940
+[v _CCPR5H CCPR5H `VEuc  1 e 1 @797 ]
+[s S1510 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"21142
+[u S1515 . 1 `S1510 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES1515  1 e 1 @1804 ]
+[s S545 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 ADTIF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"21176
+[u S551 . 1 `S545 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES551  1 e 1 @1805 ]
+[s S1634 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+"21249
+[u S1641 . 1 `S1634 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES1641  1 e 1 @1807 ]
+[s S1546 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"21564
+[u S1551 . 1 `S1546 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES1551  1 e 1 @1814 ]
+[s S560 . 1 `uc 1 ADIE 1 0 :1:0 
+`uc 1 ADTIE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"21598
+[u S566 . 1 `S560 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES566  1 e 1 @1815 ]
+"21973
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"22030
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"22101
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22146
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22202
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22253
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"22974
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2074 ]
+"23036
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2075 ]
+"23092
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2076 ]
+"23154
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @2077 ]
+[s S1116 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"23220
+[u S1124 . 1 `S1116 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES1124  1 e 1 @2078 ]
+"23260
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2079 ]
+"23324
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23464
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23561
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23612
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23670
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"29763
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3727 ]
+[s S610 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"29773
+[u S612 . 1 `S610 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES612  1 e 1 @3727 ]
+"31687
+[v _RXPPS RXPPS `VEuc  1 e 1 @3787 ]
+"32041
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @3861 ]
+"32891
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3878 ]
+"32991
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"33053
+[v _WPUA WPUA `VEuc  1 e 1 @3897 ]
+"33115
+[v _ODCONA ODCONA `VEuc  1 e 1 @3898 ]
+"33177
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3899 ]
+"33239
+[v _INLVLA INLVLA `VEuc  1 e 1 @3900 ]
+"33611
+[v _ANSELB ANSELB `VEuc  1 e 1 @3907 ]
+"33673
+[v _WPUB WPUB `VEuc  1 e 1 @3908 ]
+"33735
+[v _ODCONB ODCONB `VEuc  1 e 1 @3909 ]
+"33797
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3910 ]
+"33859
+[v _INLVLB INLVLB `VEuc  1 e 1 @3911 ]
+"34231
+[v _ANSELC ANSELC `VEuc  1 e 1 @3918 ]
+"34293
+[v _WPUC WPUC `VEuc  1 e 1 @3919 ]
+"34355
+[v _ODCONC ODCONC `VEuc  1 e 1 @3920 ]
+"34417
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3921 ]
+"34479
+[v _INLVLC INLVLC `VEuc  1 e 1 @3922 ]
+"34851
+[v _WPUE WPUE `VEuc  1 e 1 @3941 ]
+"34872
+[v _INLVLE INLVLE `VEuc  1 e 1 @3944 ]
+"36757
+"36757
+[v _GIE GIE `VEb  1 e 0 @95 ]
+[s S2482 . 2 `uc 1 high 1 0 `uc 1 low 1 1 ]
+"16 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\fanspeed.c
+[v _speedDelays speedDelays `DC[5]S2482  1 e 10 0 ]
+"3 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\globals.c
+[v _wipeTriggerFlag wipeTriggerFlag `uc  1 e 1 0 ]
+"4
+[v _wipeEnabled wipeEnabled `uc  1 e 1 0 ]
+"9
+[v _touchEdgeDetected touchEdgeDetected `uc  1 e 1 0 ]
+[v _mainToggleState mainToggleState `uc  1 e 1 0 ]
+"11
+[v _ustate ustate `uc  1 e 1 0 ]
+"12
+[v _holdCounter holdCounter `ui  1 e 2 0 ]
+"13 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\ir_handler.c
+[v _d d `ui  1 e 2 0 ]
+"14
+[v _t1 t1 `ui  1 e 2 0 ]
+[v _a1 a1 `ui  1 e 2 0 ]
+[v _a2 a2 `ui  1 e 2 0 ]
+[v _c1 c1 `ui  1 e 2 0 ]
+[v _c2 c2 `ui  1 e 2 0 ]
+[v _d1 d1 `ui  1 e 2 0 ]
+[v _d2 d2 `ui  1 e 2 0 ]
+[v _r1 r1 `ui  1 e 2 0 ]
+[v _r2 r2 `ui  1 e 2 0 ]
+"15
+[v _toggle toggle `uc  1 e 1 0 ]
+"18
+[v _activeFanIR activeFanIR `c  1 s 1 activeFanIR ]
+"10 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\load_handler.c
+[v _lastFanSpeed lastFanSpeed `[2]uc  1 e 2 0 ]
+"58 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/adcc.c
+[v _ADCC_ADTI_InterruptHandler ADCC_ADTI_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S1588 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/eusart.c
+[u S1593 . 1 `S1588 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES1593  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"101 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/interrupt_manager.h
+[v _sto sto `us  1 e 2 0 ]
+"103
+[v _temp1h temp1h `ui  1 e 2 0 ]
+[v _temp1l temp1l `ui  1 e 2 0 ]
+[v _temp2l temp2l `ui  1 e 2 0 ]
+[v _temp2h temp2h `ui  1 e 2 0 ]
+"105
+[v _ld1 ld1 `ul  1 e 4 0 ]
+[v _ld2 ld2 `ul  1 e 4 0 ]
+[v _ld3 ld3 `ul  1 e 4 0 ]
+"106
+[v _l1 l1 `ul  1 e 4 0 ]
+[v _l2 l2 `ul  1 e 4 0 ]
+"52 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch.c
+[v _mtouch_time_toScan mtouch_time_toScan `uc  1 s 1 mtouch_time_toScan ]
+"53
+[v _mtouch_request_init mtouch_request_init `uc  1 s 1 mtouch_request_init ]
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+"83 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _mtouch_button_init mtouch_button_init `DC[5]S118  1 e 85 0 ]
+"137
+[v _mtouch_button mtouch_button `[5]S118  1 s 85 mtouch_button ]
+"164
+[v _callback_pressed callback_pressed `*.37(v  1 s 2 callback_pressed ]
+"165
+[v _callback_notPressed callback_notPressed `*.37(v  1 s 2 callback_notPressed ]
+"173
+[v _Button_StateMachine Button_StateMachine `[3]*.37(v  1 e 6 0 ]
+"147 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _callback_sampled callback_sampled `*.37(v  1 s 2 callback_sampled ]
+"154
+[v _sensor_medianBuffer sensor_medianBuffer `[5][3]ui  1 s 30 sensor_medianBuffer ]
+"155
+[v _packet_sample packet_sample `[5]ui  1 s 10 packet_sample ]
+"156
+[v _currentScanSensor currentScanSensor `E14537  1 s 1 currentScanSensor ]
+"157
+[v _sampling_flag sampling_flag `uc  1 s 1 sampling_flag ]
+"158
+[v _scanInterrupted scanInterrupted `VEuc  1 s 1 scanInterrupted ]
+"159
+[v _lowpowerActivated lowpowerActivated `uc  1 s 1 lowpowerActivated ]
+"172
+[v _freq_index freq_index `uc  1 s 1 freq_index ]
+"173
+[v _freq_hop freq_hop `[3]uc  1 s 3 freq_hop ]
+"174
+[v _sample_delay sample_delay `uc  1 s 1 sample_delay ]
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"181
+[v _mtouch_sensor_init mtouch_sensor_init `DC[5]S478  1 e 45 0 ]
+"224
+[v _mtouch_sensor mtouch_sensor `[5]S478  1 s 45 mtouch_sensor ]
+[s S1836 . 9 `E14479 1 touchID 1 0 `uc 1 uartOn 1 1 `uc 1 uartOff 1 2 `uc 1 toggle 1 3 `uc 1 pressedLast 1 4 `ui 1 c1 2 5 `ui 1 c2 2 7 ]
+"7 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\moduleconfigfile.c
+[v _controls controls `[4]S1836  1 e 36 0 ]
+[s S2165 . 7 `E14460 1 touchID 1 0 `uc 1 uartCode 1 1 `*.1uc 1 fanSpeed 2 2 `*.1uc 1 ledStatus 2 4 `uc 1 pressedFlag 1 6 ]
+"8
+[v _fanSpeedControls fanSpeedControls `[10]S2165  1 e 70 0 ]
+[s S1851 . 17 `*.1uc 1 state 2 0 `*.1uc 1 fan 2 2 `*.1uc 1 led 2 4 `*.1uc 1 fn 2 6 `uc 1 toggleChar 1 8 `uc 1 offChar 1 9 `uc 1 baseChar 1 10 `uc 1 toggle_c1 1 11 `uc 1 toggle_c2 1 12 `uc 1 speedup_c1 1 13 `uc 1 speedup_c2 1 14 `uc 1 speeddown_c1 1 15 `uc 1 speeddown_c2 1 16 ]
+"9
+[s S2185 . 7 `E14460 1 touchID 1 0 `*.1uc 1 toggleFlag 2 1 `*.1uc 1 toggleState 2 3 `*.1S1851 1 fanCtrl 2 5 ]
+[v _fanToggles fanToggles `[2]S2185  1 e 14 0 ]
+"10
+[v _fans fans `[2]S1851  1 e 34 0 ]
+"15 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+[v main@touchDetected touchDetected `uc  1 a 1 0 ]
+"80
+} 0
+"81 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\ir_handler.c
+[v _ir_handler ir_handler `(v  1 e 1 0 ]
+{
+[s S1836 . 9 `E14479 1 touchID 1 0 `uc 1 uartOn 1 1 `uc 1 uartOff 1 2 `uc 1 toggle 1 3 `uc 1 pressedLast 1 4 `ui 1 c1 2 5 `ui 1 c2 2 7 ]
+"117
+[v ir_handler@ctrl ctrl `*.6S1836  1 a 1 28 ]
+"126
+[v ir_handler@k k `uc  1 a 1 30 ]
+"116
+[v ir_handler@i i `uc  1 a 1 29 ]
+"155
+} 0
+"61 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\load_handler.c
+[v _handleFanToggle handleFanToggle `(v  1 e 1 0 ]
+{
+[s S1851 . 17 `*.1uc 1 state 2 0 `*.1uc 1 fan 2 2 `*.1uc 1 led 2 4 `*.1uc 1 fn 2 6 `uc 1 toggleChar 1 8 `uc 1 offChar 1 9 `uc 1 baseChar 1 10 `uc 1 toggle_c1 1 11 `uc 1 toggle_c2 1 12 `uc 1 speedup_c1 1 13 `uc 1 speedup_c2 1 14 `uc 1 speeddown_c1 1 15 `uc 1 speeddown_c2 1 16 ]
+[v handleFanToggle@fan fan `*.5S1851  1 a 1 wreg ]
+"63
+[v handleFanToggle@index index `uc  1 a 1 15 ]
+"61
+[v handleFanToggle@fan fan `*.5S1851  1 a 1 wreg ]
+"63
+"61
+[v handleFanToggle@fan fan `*.5S1851  1 a 1 16 ]
+"98
+} 0
+"129
+[v _handleFanSpeedChange handleFanSpeedChange `(v  1 e 1 0 ]
+{
+[s S1851 . 17 `*.1uc 1 state 2 0 `*.1uc 1 fan 2 2 `*.1uc 1 led 2 4 `*.1uc 1 fn 2 6 `uc 1 toggleChar 1 8 `uc 1 offChar 1 9 `uc 1 baseChar 1 10 `uc 1 toggle_c1 1 11 `uc 1 toggle_c2 1 12 `uc 1 speedup_c1 1 13 `uc 1 speedup_c2 1 14 `uc 1 speeddown_c1 1 15 `uc 1 speeddown_c2 1 16 ]
+[v handleFanSpeedChange@fan fan `*.5S1851  1 a 1 wreg ]
+[v handleFanSpeedChange@fan fan `*.5S1851  1 a 1 wreg ]
+[v handleFanSpeedChange@direction direction `c  1 p 1 11 ]
+"131
+"129
+[v handleFanSpeedChange@fan fan `*.5S1851  1 a 1 12 ]
+"153
+} 0
+"15 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\uart_handler.c
+[v _handleUARTCommands handleUARTCommands `(v  1 e 1 0 ]
+{
+"81
+[v handleUARTCommands@i i `uc  1 a 1 31 ]
+"72
+[v handleUARTCommands@index_2479 index `uc  1 a 1 28 ]
+"60
+[v handleUARTCommands@index index `uc  1 a 1 27 ]
+"18
+[v handleUARTCommands@received received `uc  1 a 1 30 ]
+"95
+} 0
+"30 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\load_handler.c
+[v _uartLight uartLight `(v  1 e 1 0 ]
+{
+[v uartLight@received received `uc  1 a 1 wreg ]
+[v uartLight@received received `uc  1 a 1 wreg ]
+[v uartLight@received received `uc  1 a 1 10 ]
+"59
+} 0
+"116 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\touch_handler.c
+[v _processFanSpeedControlU processFanSpeedControlU `(v  1 e 1 0 ]
+{
+[s S2165 . 7 `E14460 1 touchID 1 0 `uc 1 uartCode 1 1 `*.1uc 1 fanSpeed 2 2 `*.1uc 1 ledStatus 2 4 `uc 1 pressedFlag 1 6 ]
+[v processFanSpeedControlU@fc fc `*.6S2165  1 a 1 wreg ]
+[s S1851 . 17 `*.1uc 1 state 2 0 `*.1uc 1 fan 2 2 `*.1uc 1 led 2 4 `*.1uc 1 fn 2 6 `uc 1 toggleChar 1 8 `uc 1 offChar 1 9 `uc 1 baseChar 1 10 `uc 1 toggle_c1 1 11 `uc 1 toggle_c2 1 12 `uc 1 speedup_c1 1 13 `uc 1 speedup_c2 1 14 `uc 1 speeddown_c1 1 15 `uc 1 speeddown_c2 1 16 ]
+"119
+[v processFanSpeedControlU@fan fan `*.5S1851  1 a 1 23 ]
+"116
+[v processFanSpeedControlU@fc fc `*.6S2165  1 a 1 wreg ]
+[v processFanSpeedControlU@index index `uc  1 p 1 18 ]
+[v processFanSpeedControlU@fc fc `*.6S2165  1 a 1 22 ]
+"127
+} 0
+"147
+[v _syncFanToggleState syncFanToggleState `(v  1 e 1 0 ]
+{
+[s S1851 . 17 `*.1uc 1 state 2 0 `*.1uc 1 fan 2 2 `*.1uc 1 led 2 4 `*.1uc 1 fn 2 6 `uc 1 toggleChar 1 8 `uc 1 offChar 1 9 `uc 1 baseChar 1 10 `uc 1 toggle_c1 1 11 `uc 1 toggle_c2 1 12 `uc 1 speedup_c1 1 13 `uc 1 speedup_c2 1 14 `uc 1 speeddown_c1 1 15 `uc 1 speeddown_c2 1 16 ]
+"149
+[s S2185 . 7 `E14460 1 touchID 1 0 `*.1uc 1 toggleFlag 2 1 `*.1uc 1 toggleState 2 3 `*.1S1851 1 fanCtrl 2 5 ]
+[v syncFanToggleState@ft ft `*.5S2185  1 a 1 16 ]
+"148
+[v syncFanToggleState@i i `uc  1 a 1 17 ]
+"153
+} 0
+"101 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\load_handler.c
+[v _handleFanToggleU handleFanToggleU `(v  1 e 1 0 ]
+{
+[s S1851 . 17 `*.1uc 1 state 2 0 `*.1uc 1 fan 2 2 `*.1uc 1 led 2 4 `*.1uc 1 fn 2 6 `uc 1 toggleChar 1 8 `uc 1 offChar 1 9 `uc 1 baseChar 1 10 `uc 1 toggle_c1 1 11 `uc 1 toggle_c2 1 12 `uc 1 speedup_c1 1 13 `uc 1 speedup_c2 1 14 `uc 1 speeddown_c1 1 15 `uc 1 speeddown_c2 1 16 ]
+[v handleFanToggleU@fan fan `*.5S1851  1 a 1 wreg ]
+"103
+[v handleFanToggleU@index index `uc  1 a 1 14 ]
+"101
+[v handleFanToggleU@fan fan `*.5S1851  1 a 1 wreg ]
+"103
+"101
+[v handleFanToggleU@fan fan `*.5S1851  1 a 1 15 ]
+"126
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 16 ]
+[v ___awmod@counter counter `uc  1 a 1 15 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 10 ]
+[v ___awmod@dividend dividend `i  1 p 2 12 ]
+"35
+} 0
+"99 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/eusart.c
+[v _EUSART_is_rx_ready EUSART_is_rx_ready `(uc  1 e 1 0 ]
+{
+"102
+} 0
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+{
+"130
+} 0
+"54 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\touch_handler.c
+[v _handleGeneralTouchControls handleGeneralTouchControls `(v  1 e 1 0 ]
+{
+[s S1836 . 9 `E14479 1 touchID 1 0 `uc 1 uartOn 1 1 `uc 1 uartOff 1 2 `uc 1 toggle 1 3 `uc 1 pressedLast 1 4 `ui 1 c1 2 5 `ui 1 c2 2 7 ]
+"56
+[v handleGeneralTouchControls@ctrl ctrl `*.6S1836  1 a 1 28 ]
+"55
+[v handleGeneralTouchControls@i i `uc  1 a 1 29 ]
+"67
+} 0
+"45
+[v _processToggle processToggle `(v  1 e 1 0 ]
+{
+[s S1836 . 9 `E14479 1 touchID 1 0 `uc 1 uartOn 1 1 `uc 1 uartOff 1 2 `uc 1 toggle 1 3 `uc 1 pressedLast 1 4 `ui 1 c1 2 5 `ui 1 c2 2 7 ]
+[v processToggle@ctrl ctrl `*.6S1836  1 a 1 wreg ]
+[v processToggle@ctrl ctrl `*.6S1836  1 a 1 wreg ]
+[v processToggle@index index `uc  1 p 1 20 ]
+[v processToggle@ctrl ctrl `*.6S1836  1 a 1 25 ]
+"50
+} 0
+"25 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\load_handler.c
+[v _updateLight updateLight `(v  1 e 1 0 ]
+{
+[v updateLight@i i `uc  1 a 1 wreg ]
+[v updateLight@i i `uc  1 a 1 wreg ]
+[v updateLight@i i `uc  1 a 1 19 ]
+"27
+} 0
+"12
+[v _setLightState setLightState `(v  1 e 1 0 ]
+{
+[v setLightState@touchID touchID `uc  1 a 1 wreg ]
+[v setLightState@touchID touchID `uc  1 a 1 wreg ]
+[v setLightState@state state `uc  1 p 1 14 ]
+[v setLightState@touchID touchID `uc  1 a 1 15 ]
+"24
+} 0
+"401 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_isPressed MTOUCH_Button_isPressed `(uc  1 e 1 0 ]
+{
+[v MTOUCH_Button_isPressed@name name `E14424  1 a 1 wreg ]
+[v MTOUCH_Button_isPressed@name name `E14424  1 a 1 wreg ]
+"403
+[v MTOUCH_Button_isPressed@name name `E14424  1 a 1 22 ]
+"407
+} 0
+"50 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"74
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"55 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"60 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"66 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 10 ]
+"163
+} 0
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 10 ]
+"159
+} 0
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 10 ]
+"167
+} 0
+"64 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"13 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\touch_handler.c
+[v _OnHold OnHold `(v  1 e 1 0 ]
+{
+[v OnHold@touch touch `uc  1 a 1 wreg ]
+[v OnHold@touch touch `uc  1 a 1 wreg ]
+"14
+[v OnHold@irTriggered irTriggered `uc  1 s 1 irTriggered ]
+"15
+[v OnHold@matterTriggered matterTriggered `uc  1 s 1 matterTriggered ]
+"17
+[v OnHold@touch touch `uc  1 a 1 13 ]
+"39
+} 0
+"132 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/eusart.c
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 10 ]
+"139
+} 0
+"99 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch.c
+[v _MTOUCH_Service_Mainloop MTOUCH_Service_Mainloop `(uc  1 e 1 0 ]
+{
+"101
+[v MTOUCH_Service_Mainloop@mask mask `uc  1 a 1 40 ]
+"128
+} 0
+"147
+[v _MTOUCH_needReburst MTOUCH_needReburst `(uc  1 s 1 MTOUCH_needReburst ]
+{
+"149
+[v MTOUCH_needReburst@needReburst needReburst `uc  1 a 1 10 ]
+"152
+} 0
+"135
+[v _MTOUCH_Tick MTOUCH_Tick `(v  1 e 1 0 ]
+{
+"140
+} 0
+"324 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_Tick MTOUCH_Button_Tick `(v  1 e 1 0 ]
+{
+"326
+[v MTOUCH_Button_Tick@i i `uc  1 a 1 24 ]
+"331
+} 0
+"332
+[v _Button_Tick_helper Button_Tick_helper `(v  1 s 1 Button_Tick_helper ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_Tick_helper@button button `*.39S118  1 p 2 16 ]
+"343
+} 0
+"345 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_SampleAll MTOUCH_Sensor_SampleAll `(uc  1 e 1 0 ]
+{
+"357
+} 0
+"706
+[v _Sensor_FrequencyHopping Sensor_FrequencyHopping `(v  1 s 1 Sensor_FrequencyHopping ]
+{
+"712
+} 0
+"617
+[v _Sensor_setSamplePeriod Sensor_setSamplePeriod `(v  1 s 1 Sensor_setSamplePeriod ]
+{
+"623
+} 0
+"720
+[v _Sensor_FrequencyHopping_Autotune_Process Sensor_FrequencyHopping_Autotune_Process `(v  1 s 1 Sensor_FrequencyHopping_Autotune_Process ]
+{
+"725
+[v Sensor_FrequencyHopping_Autotune_Process@maxVariance maxVariance `ui  1 a 2 26 ]
+[v Sensor_FrequencyHopping_Autotune_Process@variance variance `ui  1 a 2 24 ]
+"723
+[v Sensor_FrequencyHopping_Autotune_Process@frequencyIndex frequencyIndex `uc  1 a 1 30 ]
+"724
+[v Sensor_FrequencyHopping_Autotune_Process@selectedFrequency selectedFrequency `uc  1 a 1 29 ]
+"722
+[v Sensor_FrequencyHopping_Autotune_Process@sensor sensor `E14537  1 a 1 28 ]
+"724
+[v Sensor_FrequencyHopping_Autotune_Process@newfrequencyFound newfrequencyFound `uc  1 a 1 23 ]
+"728
+[v Sensor_FrequencyHopping_Autotune_Process@varianceOverLimitCounter varianceOverLimitCounter `[3]uc  1 s 3 varianceOverLimitCounter ]
+"790
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 14 ]
+"9
+} 0
+"526 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_postAcquisitionProcess MTOUCH_Sensor_postAcquisitionProcess `(v  1 e 1 0 ]
+{
+"528
+[v MTOUCH_Sensor_postAcquisitionProcess@name name `E14537  1 a 1 27 ]
+"538
+} 0
+"648
+[v _Sensor_RawSample_Update Sensor_RawSample_Update `(v  1 s 1 Sensor_RawSample_Update ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_RawSample_Update@sensor sensor `*.5S478  1 a 1 wreg ]
+"650
+[v Sensor_RawSample_Update@result result `ui  1 a 2 23 ]
+"648
+[v Sensor_RawSample_Update@sensor sensor `*.5S478  1 a 1 wreg ]
+"650
+"648
+[v Sensor_RawSample_Update@sensor sensor `*.5S478  1 a 1 25 ]
+"662
+} 0
+"665
+[v _medianFilter medianFilter `(ui  1 s 2 medianFilter ]
+{
+[v medianFilter@sensor sensor `E14537  1 a 1 wreg ]
+[v medianFilter@sensor sensor `E14537  1 a 1 wreg ]
+"667
+[v medianFilter@bufferIndex bufferIndex `[5]uc  1 s 5 bufferIndex ]
+"669
+[v medianFilter@sensor sensor `E14537  1 a 1 22 ]
+"699
+} 0
+"797
+[v _Sensor_DefaultCallback Sensor_DefaultCallback `(v  1 s 1 Sensor_DefaultCallback ]
+{
+[v Sensor_DefaultCallback@sensor sensor `E14537  1 p 1 10 ]
+} 0
+"325
+[v _MTOUCH_Sensor_isSamplingComplete MTOUCH_Sensor_isSamplingComplete `(uc  1 e 1 0 ]
+{
+"327
+[v MTOUCH_Sensor_isSamplingComplete@sensor sensor `E14537  1 a 1 22 ]
+"342
+} 0
+"414
+[v _Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 Sensor_scheduleNextScan ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"416
+[v Sensor_scheduleNextScan@sensor sensor `*.5S478  1 a 1 20 ]
+"417
+[v Sensor_scheduleNextScan@skipScan skipScan `uc  1 a 1 19 ]
+"418
+[v Sensor_scheduleNextScan@state state `uc  1 a 1 18 ]
+"467
+} 0
+"914
+[v _Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(uc  1 s 1 Sensor_isCalibratingAcqTime ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_isCalibratingAcqTime@sensor sensor `*.5S478  1 a 1 wreg ]
+[v Sensor_isCalibratingAcqTime@sensor sensor `*.5S478  1 a 1 wreg ]
+"916
+"914
+[v Sensor_isCalibratingAcqTime@sensor sensor `*.5S478  1 a 1 10 ]
+"918
+} 0
+"896
+[v _Sensor_isCalibrated Sensor_isCalibrated `T(uc  1 s 1 Sensor_isCalibrated ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_isCalibrated@sensor sensor `*.5S478  1 a 1 wreg ]
+[v Sensor_isCalibrated@sensor sensor `*.5S478  1 a 1 wreg ]
+"898
+"896
+[v Sensor_isCalibrated@sensor sensor `*.5S478  1 a 1 11 ]
+"899
+} 0
+"240
+[v _Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 Sensor_SetTrisBit ]
+{
+[v Sensor_SetTrisBit@sensor sensor `E14537  1 a 1 wreg ]
+[v Sensor_SetTrisBit@sensor sensor `E14537  1 a 1 wreg ]
+[v Sensor_SetTrisBit@TrisBit TrisBit `uc  1 p 1 10 ]
+[v Sensor_SetTrisBit@sensor sensor `E14537  1 a 1 11 ]
+"261
+} 0
+"824
+[v _MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(uc  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E14537  1 a 1 wreg ]
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E14537  1 a 1 wreg ]
+"826
+[v MTOUCH_Sensor_isEnabled@sensor sensor `E14537  1 a 1 15 ]
+"830
+} 0
+"954
+[v _MTOUCH_Sensor_isSampling MTOUCH_Sensor_isSampling `(uc  1 e 1 0 ]
+{
+"957
+} 0
+"82 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch.c
+[v _MTOUCH_Initialize MTOUCH_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"389 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Scan_Initialize MTOUCH_Sensor_Scan_Initialize `(v  1 e 1 0 ]
+{
+"393
+[v MTOUCH_Sensor_Scan_Initialize@state state `uc  1 a 1 12 ]
+"406
+} 0
+"269
+[v _MTOUCH_Sensor_ADCC_Initialize MTOUCH_Sensor_ADCC_Initialize `(v  1 e 1 0 ]
+{
+"309
+} 0
+"316 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/adcc.c
+[v _ADCC_SetADTIInterruptHandler ADCC_SetADTIInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADCC_SetADTIInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 10 ]
+"318
+} 0
+"927 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Sampled_ResetAll MTOUCH_Sensor_Sampled_ResetAll `(v  1 e 1 0 ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"929
+[v MTOUCH_Sensor_Sampled_ResetAll@sensor sensor `*.5S478  1 a 1 12 ]
+"934
+} 0
+"312
+[v _MTOUCH_Sensor_InitializeAll MTOUCH_Sensor_InitializeAll `(v  1 e 1 0 ]
+{
+"314
+[v MTOUCH_Sensor_InitializeAll@sensor sensor `E14537  1 a 1 19 ]
+"322
+} 0
+"231
+[v _MTOUCH_Sensor_Initialize MTOUCH_Sensor_Initialize `(E14543  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Initialize@sensor sensor `E14537  1 a 1 wreg ]
+[v MTOUCH_Sensor_Initialize@sensor sensor `E14537  1 a 1 wreg ]
+"233
+[v MTOUCH_Sensor_Initialize@sensor sensor `E14537  1 a 1 17 ]
+"238
+} 0
+"944
+[v _Sensor_Sampled_Reset Sensor_Sampled_Reset `T(v  1 s 1 Sensor_Sampled_Reset ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_Sampled_Reset@sensor sensor `*.5S478  1 a 1 wreg ]
+[v Sensor_Sampled_Reset@sensor sensor `*.5S478  1 a 1 wreg ]
+"946
+"944
+[v Sensor_Sampled_Reset@sensor sensor `*.5S478  1 a 1 10 ]
+"947
+} 0
+"818
+[v _MTOUCH_Sensor_Enable MTOUCH_Sensor_Enable `(v  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Enable@sensor sensor `E14537  1 a 1 wreg ]
+[v MTOUCH_Sensor_Enable@sensor sensor `E14537  1 a 1 wreg ]
+"820
+[v MTOUCH_Sensor_Enable@sensor sensor `E14537  1 a 1 15 ]
+"822
+} 0
+"198 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _MTOUCH_Button_InitializeAll MTOUCH_Button_InitializeAll `(v  1 e 1 0 ]
+{
+"200
+[v MTOUCH_Button_InitializeAll@button button `E14424  1 a 1 24 ]
+"208
+} 0
+"216
+[v _MTOUCH_Button_ServiceAll MTOUCH_Button_ServiceAll `(v  1 e 1 0 ]
+{
+"218
+[v MTOUCH_Button_ServiceAll@button button `E14424  1 a 1 38 ]
+"225
+} 0
+"227
+[v _Button_Service Button_Service `(v  1 s 1 Button_Service ]
+{
+[v Button_Service@name name `E14424  1 a 1 wreg ]
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+"229
+[v Button_Service@button button `*.39S118  1 a 2 35 ]
+"227
+[v Button_Service@name name `E14424  1 a 1 wreg ]
+"229
+[v Button_Service@name name `E14424  1 a 1 34 ]
+"242
+} 0
+"936 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(uc  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E14537  1 a 1 wreg ]
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E14537  1 a 1 wreg ]
+"938
+[v MTOUCH_Sensor_wasSampled@sensor sensor `E14537  1 a 1 15 ]
+"942
+} 0
+"888
+[v _MTOUCH_Sensor_isCalibrated MTOUCH_Sensor_isCalibrated `(uc  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E14537  1 a 1 wreg ]
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E14537  1 a 1 wreg ]
+"890
+[v MTOUCH_Sensor_isCalibrated@sensor sensor `E14537  1 a 1 16 ]
+"894
+} 0
+"264 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _Button_State_NotPressed Button_State_NotPressed `(v  1 s 1 Button_State_NotPressed ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_State_NotPressed@button button `*.39S118  1 p 2 24 ]
+"298
+} 0
+"244
+[v _Button_State_Initializing Button_State_Initializing `(v  1 s 1 Button_State_Initializing ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_State_Initializing@button button `*.39S118  1 p 2 24 ]
+"263
+} 0
+"300
+[v _Button_State_Pressed Button_State_Pressed `(v  1 s 1 Button_State_Pressed ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_State_Pressed@button button `*.39S118  1 p 2 24 ]
+"317
+} 0
+"186
+[v _MTOUCH_Button_Initialize MTOUCH_Button_Initialize `(v  1 e 1 0 ]
+{
+[v MTOUCH_Button_Initialize@name name `E14424  1 a 1 wreg ]
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+"188
+[v MTOUCH_Button_Initialize@button button `*.39S118  1 a 2 21 ]
+"186
+[v MTOUCH_Button_Initialize@name name `E14424  1 a 1 wreg ]
+"188
+[v MTOUCH_Button_Initialize@name name `E14424  1 a 1 20 ]
+"196
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 14 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 10 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 12 ]
+"53
+} 0
+"880 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_Calibrate MTOUCH_Sensor_Calibrate `(v  1 e 1 0 ]
+{
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E14537  1 a 1 wreg ]
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E14537  1 a 1 wreg ]
+"882
+[v MTOUCH_Sensor_Calibrate@sensor sensor `E14537  1 a 1 15 ]
+"886
+} 0
+"554 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _Button_DefaultCallback Button_DefaultCallback `(v  1 s 1 Button_DefaultCallback ]
+{
+[v Button_DefaultCallback@button button `E14424  1 p 1 10 ]
+} 0
+"508
+[v _Button_Baseline_Update Button_Baseline_Update `(v  1 s 1 Button_Baseline_Update ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_Baseline_Update@button button `*.39S118  1 p 2 10 ]
+"522
+} 0
+"502
+[v _Button_Baseline_Initialize Button_Baseline_Initialize `(v  1 s 1 Button_Baseline_Initialize ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_Baseline_Initialize@button button `*.39S118  1 p 2 18 ]
+"506
+} 0
+"475
+[v _Button_Reading_Update Button_Reading_Update `(v  1 s 1 Button_Reading_Update ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_Reading_Update@button button `*.39S118  1 p 2 22 ]
+"487
+} 0
+"489
+[v _Button_Reading_Update_Helper Button_Reading_Update_Helper `(v  1 s 1 Button_Reading_Update_Helper ]
+{
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+[v Button_Reading_Update_Helper@button button `*.39S118  1 p 2 18 ]
+"500
+} 0
+"629 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _MTOUCH_Sensor_RawSample_Get MTOUCH_Sensor_RawSample_Get `(ui  1 e 2 0 ]
+{
+[v MTOUCH_Sensor_RawSample_Get@name name `E14537  1 a 1 wreg ]
+[v MTOUCH_Sensor_RawSample_Get@name name `E14537  1 a 1 wreg ]
+"631
+[v MTOUCH_Sensor_RawSample_Get@name name `E14537  1 a 1 17 ]
+"637
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 12 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 10 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 13 ]
+"51
+} 0
+"426 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_button.c
+[v _Button_Deviation_Update Button_Deviation_Update `(v  1 s 1 Button_Deviation_Update ]
+{
+"428
+[v Button_Deviation_Update@deviation deviation `l  1 a 4 22 ]
+[s S118 . 17 `DCE14424 1 name 1 0 `DCE14347 1 sensor 1 1 `E14495 1 state 1 2 `ui 1 reading 2 3 `ul 1 baseline 4 5 `c 1 deviation 1 9 `ui 1 counter 2 10 `ui 1 baseline_count 2 12 `uc 1 threshold 1 14 `uc 1 scaling 1 15 `E14499 1 hysteresis 1 16 ]
+"426
+[v Button_Deviation_Update@button button `*.39S118  1 p 2 10 ]
+"446
+} 0
+"84 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/interrupt_manager.c
+[v _InitExternal_INT InitExternal_INT `(v  1 e 1 0 ]
+{
+"91
+} 0
+"202 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `ui  1 p 2 10 ]
+"212
+} 0
+"52 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"83
+} 0
+"20 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\ir_handler.c
+[v _decodeIRSignal decodeIRSignal `(v  1 e 1 0 ]
+{
+"21
+[v decodeIRSignal@i i `uc  1 a 1 8 ]
+"23
+[v decodeIRSignal@command command `uc  1 a 1 7 ]
+"22
+[v decodeIRSignal@address address `uc  1 a 1 6 ]
+"79
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\awmod.c
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+{
+[v i1___awmod@sign __awmod `uc  1 a 1 1 ]
+[v i1___awmod@counter __awmod `uc  1 a 1 0 ]
+[v i1___awmod@divisor divisor `i  1 p 2 9 ]
+[v i1___awmod@dividend dividend `i  1 p 2 11 ]
+"35
+} 0
+"132 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/eusart.c
+[v i1_EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v i1EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v i1EUSART_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"202 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/memory.c
+[v i1_DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v i1DATAEE_ReadByte@bAdd bAdd `ui  1 p 2 0 ]
+"212
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"180 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"182
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 3 ]
+"180
+[v DATAEE_WriteByte@bAdd bAdd `ui  1 p 2 0 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 2 ]
+"200
+} 0
+"307 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/adcc.c
+[v _ADCC_ThresholdISR ADCC_ThresholdISR `(v  1 e 1 0 ]
+{
+"314
+} 0
+"319
+[v _ADCC_DefaultInterruptHandler ADCC_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"322
+} 0
+"546 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _ADCC_ThresholdISR_mTouch ADCC_ThresholdISR_mTouch `(v  1 e 1 0 ]
+{
+"551
+} 0
+"559
+[v _MTOUCH_Sensor_Service MTOUCH_Sensor_Service `T(v  1 s 1 MTOUCH_Sensor_Service ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+"561
+[v MTOUCH_Sensor_Service@sensor sensor `*.5S478  1 a 1 13 ]
+"610
+} 0
+"414
+[v i1_Sensor_scheduleNextScan Sensor_scheduleNextScan `(v  1 s 1 i1_Sensor_scheduleNextScan ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v i1Sensor_scheduleNextScan@sensor Sensor_scheduleNextScan `*.5S478  1 a 1 10 ]
+[v i1Sensor_scheduleNextScan@skipScan Sensor_scheduleNextScan `uc  1 a 1 9 ]
+[v i1Sensor_scheduleNextScan@state Sensor_scheduleNextScan `uc  1 a 1 8 ]
+"467
+} 0
+"896
+[v i1_Sensor_isCalibrated Sensor_isCalibrated `T(uc  1 s 1 i1_Sensor_isCalibrated ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v i1Sensor_isCalibrated@sensor sensor `*.5S478  1 a 1 wreg ]
+[v i1Sensor_isCalibrated@sensor sensor `*.5S478  1 a 1 wreg ]
+"898
+"896
+[v i1Sensor_isCalibrated@sensor sensor `*.5S478  1 a 1 1 ]
+"899
+} 0
+"240
+[v i1_Sensor_SetTrisBit Sensor_SetTrisBit `(v  1 s 1 i1_Sensor_SetTrisBit ]
+{
+[v i1Sensor_SetTrisBit@sensor sensor `E14537  1 a 1 wreg ]
+[v i1Sensor_SetTrisBit@sensor sensor `E14537  1 a 1 wreg ]
+[v i1Sensor_SetTrisBit@TrisBit TrisBit `uc  1 p 1 0 ]
+[v i1Sensor_SetTrisBit@sensor sensor `E14537  1 a 1 1 ]
+"261
+} 0
+"936
+[v i1_MTOUCH_Sensor_wasSampled MTOUCH_Sensor_wasSampled `(uc  1 e 1 0 ]
+{
+[v i1MTOUCH_Sensor_wasSampled@sensor sensor `E14537  1 a 1 wreg ]
+[v i1MTOUCH_Sensor_wasSampled@sensor sensor `E14537  1 a 1 wreg ]
+"938
+[v i1MTOUCH_Sensor_wasSampled@sensor sensor `E14537  1 a 1 5 ]
+"942
+} 0
+"824
+[v i1_MTOUCH_Sensor_isEnabled MTOUCH_Sensor_isEnabled `(uc  1 e 1 0 ]
+{
+[v i1MTOUCH_Sensor_isEnabled@sensor sensor `E14537  1 a 1 wreg ]
+[v i1MTOUCH_Sensor_isEnabled@sensor sensor `E14537  1 a 1 wreg ]
+"826
+[v i1MTOUCH_Sensor_isEnabled@sensor sensor `E14537  1 a 1 5 ]
+"830
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\Umul8.c
+[v i1___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v i1___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v i1___bmul@product __bmul `uc  1 a 1 3 ]
+[v i1___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v i1___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v i1___bmul@multiplier multiplier `uc  1 a 1 2 ]
+"51
+} 0
+"949 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v _Sensor_setSampled Sensor_setSampled `T(v  1 s 1 Sensor_setSampled ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setSampled@sensor sensor `*.5S478  1 a 1 wreg ]
+[v Sensor_setSampled@sensor sensor `*.5S478  1 a 1 wreg ]
+"951
+"949
+[v Sensor_setSampled@sensor sensor `*.5S478  1 a 1 0 ]
+"952
+} 0
+"476
+[v _Sensor_autoCalibration Sensor_autoCalibration `(E14543  1 s 1 Sensor_autoCalibration ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_autoCalibration@sensor sensor `*.5S478  1 a 1 wreg ]
+"478
+[v Sensor_autoCalibration@name name `E14537  1 a 1 8 ]
+"476
+[v Sensor_autoCalibration@sensor sensor `*.5S478  1 a 1 wreg ]
+"478
+"476
+[v Sensor_autoCalibration@sensor sensor `*.5S478  1 a 1 9 ]
+"518
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.43\sources\common\abs.c
+[v i1_abs abs `(i  1 e 2 0 ]
+{
+[v i1abs@a a `i  1 p 2 0 ]
+"9
+} 0
+"914 E:\Rakshith\Weinkling\HYDERABAD_KOHINOOR_APARTMENT\2M_4L.X\mcc_generated_files/mtouch/mtouch_sensor.c
+[v i1_Sensor_isCalibratingAcqTime Sensor_isCalibratingAcqTime `T(uc  1 s 1 i1_Sensor_isCalibratingAcqTime ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v i1Sensor_isCalibratingAcqTime@sensor sensor `*.5S478  1 a 1 wreg ]
+[v i1Sensor_isCalibratingAcqTime@sensor sensor `*.5S478  1 a 1 wreg ]
+"916
+"914
+[v i1Sensor_isCalibratingAcqTime@sensor sensor `*.5S478  1 a 1 0 ]
+"918
+} 0
+"901
+[v _Sensor_setCalibrated Sensor_setCalibrated `(v  1 s 1 Sensor_setCalibrated ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setCalibrated@sensor sensor `*.5S478  1 a 1 wreg ]
+[v Sensor_setCalibrated@sensor sensor `*.5S478  1 a 1 wreg ]
+"903
+"901
+[v Sensor_setCalibrated@sensor sensor `*.5S478  1 a 1 0 ]
+"905
+} 0
+"907
+[v _Sensor_setCalibratAcqTime Sensor_setCalibratAcqTime `(v  1 s 1 Sensor_setCalibratAcqTime ]
+{
+[s S478 . 9 `DCE14537 1 sensor_name 1 0 `DCuc 1 adpch 1 1 `uc 1 precharge_time 1 2 `uc 1 acquisition_time 1 3 `uc 1 oversampling 1 4 `uc 1 addcap 1 5 `ui 1 rawSample 2 6 `uc 1 enabled 1 8 :1:0 
+`uc 1 sampled 1 8 :1:1 
+`uc 1 active 1 8 :1:2 
+`uc 1 calibrated 1 8 :1:3 
+`uc 1 acqTime_cal 1 8 :1:4 
+]
+[v Sensor_setCalibratAcqTime@sensor sensor `*.5S478  1 a 1 wreg ]
+[v Sensor_setCalibratAcqTime@sensor sensor `*.5S478  1 a 1 wreg ]
+"909
+"907
+[v Sensor_setCalibratAcqTime@sensor sensor `*.5S478  1 a 1 1 ]
+"912
+} 0

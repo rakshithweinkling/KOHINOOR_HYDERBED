@@ -1,0 +1,11 @@
+// _____________________________________________________2M_4L____________________________________________________________
+
+// ----------------------------- General Touch Toggle Relay Controls -----------------------------
+
+TouchIRControl controls[NUM_GENERAL_TOUCH] = {
+    { T1, 'a', 'b', false, false, 0, 4 },
+    { T2, 'c', 'd', false, false, 0, 5 },
+    { T3, 'e', 'f', false, false, 0, 1 },
+    { T4, 'g', 'h', false, false, 1, 6 }
+    
+};

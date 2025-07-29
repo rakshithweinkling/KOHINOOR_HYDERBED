@@ -1,0 +1,176 @@
+                                                                     Configuration of ALL modules
+
+
+
+
+
+
+
+
+// _____________________________________________________8M_4L_2FAN_1SOCKET____________________________________________________________
+
+
+
+// ----------------------------- General Touch Toggle Relay Controls -----------------------------
+TouchIRControl controls[NUM_GENERAL_TOUCH];
+void init_controls(void) {
+    controls[0].touchID = T1;
+    controls[0].uartOn = 'I';
+    controls[0].uartOff = 'J';
+    controls[0].toggle = false;
+    controls[0].pressedLast = false;
+    controls[0].c1 = 0;
+    controls[0].c2 = 4;
+
+    controls[1].touchID = T3;
+    controls[1].uartOn = 'a';
+    controls[1].uartOff = 'b';
+    controls[1].toggle = false;
+    controls[1].pressedLast = false;
+    controls[1].c1 = 0;
+    controls[1].c2 = 5;
+
+    controls[2].touchID = T4;
+    controls[2].uartOn = 'c';
+    controls[2].uartOff = 'd';
+    controls[2].toggle = false;
+    controls[2].pressedLast = false;
+    controls[2].c1 = 0;
+    controls[2].c2 = 1;
+
+    controls[3].touchID = T8;
+    controls[3].uartOn = 'e';
+    controls[3].uartOff = 'f';
+    controls[3].toggle = false;
+    controls[3].pressedLast = false;
+    controls[3].c1 = 1;
+    controls[3].c2 = 6;
+
+    controls[4].touchID = T7;
+    controls[4].uartOn = 'g';
+    controls[4].uartOff = 'h';
+    controls[4].toggle = false;
+    controls[4].pressedLast = false;
+    controls[4].c1 = 1;
+    controls[4].c2 = 1;
+}
+
+// ----------------------------- Fan Base Configuration -----------------------------
+FanControl fans[NUM_FAN_TOGGLES];
+
+void init_fans(void) {
+    fans[0].state = &fan1_state;
+    fans[0].fan = &fan1;
+    fans[0].led = &ld1;
+    fans[0].fn = &fn1;
+    fans[0].toggleChar = 'q';
+    fans[0].offChar = 'r';
+    fans[0].baseChar = '0';
+    fans[0].toggle_c1 = 1;
+    fans[0].toggle_c2 = 5;
+    fans[0].speedup_c1 = 1;
+    fans[0].speedup_c2 = 7;
+    fans[0].speeddown_c1 = 1;
+    fans[0].speeddown_c2 = 3;
+
+    fans[1].state = &fan2_state;
+    fans[1].fan = &fan2;
+    fans[1].led = &ld2;
+    fans[1].fn = &fn2;
+    fans[1].toggleChar = 's';
+    fans[1].offChar = 't';
+    fans[1].baseChar = '5';
+    fans[1].toggle_c1 = 1;
+    fans[1].toggle_c2 = 0;
+    fans[1].speedup_c1 = 1;
+    fans[1].speedup_c2 = 7;
+    fans[1].speeddown_c1 = 1;
+    fans[1].speeddown_c2 = 3;
+}
+
+// ----------------------------- Touch Toggle Fan Controls -----------------------------
+FanToggleControl fanToggles[NUM_FAN_TOGGLES];
+
+void init_fan_toggles(void) {
+    fanToggles[0].touchID = T2;
+    fanToggles[0].toggleFlag = &f10;
+    fanToggles[0].toggleState = &f11;
+    fanToggles[0].fanCtrl = &fans[0];
+
+    fanToggles[1].touchID = T6;
+    fanToggles[1].toggleFlag = &f20;
+    fanToggles[1].toggleState = &f21;
+    fanToggles[1].fanCtrl = &fans[1];
+}
+
+// ----------------------------- Touch Toggle Fan Speed Controls -----------------------------
+FanSpeedControl fanControls[NUM_FAN_SPEED_LEVELS * 2];
+
+void init_fan_controls(void) {
+    // Fan 1 speed controls
+    fanControls[0].touchID = F15;
+    fanControls[0].uartCode = '0';
+    fanControls[0].fanSpeed = &fan1;
+    fanControls[0].ledStatus = &ld1;
+    fanControls[0].pressedFlag = false;
+
+    fanControls[1].touchID = F14;
+    fanControls[1].uartCode = '1';
+    fanControls[1].fanSpeed = &fan1;
+    fanControls[1].ledStatus = &ld1;
+    fanControls[1].pressedFlag = false;
+
+    fanControls[2].touchID = F13;
+    fanControls[2].uartCode = '2';
+    fanControls[2].fanSpeed = &fan1;
+    fanControls[2].ledStatus = &ld1;
+    fanControls[2].pressedFlag = false;
+
+    fanControls[3].touchID = F12;
+    fanControls[3].uartCode = '3';
+    fanControls[3].fanSpeed = &fan1;
+    fanControls[3].ledStatus = &ld1;
+    fanControls[3].pressedFlag = false;
+
+    fanControls[4].touchID = F11;
+    fanControls[4].uartCode = '4';
+    fanControls[4].fanSpeed = &fan1;
+    fanControls[4].ledStatus = &ld1;
+    fanControls[4].pressedFlag = false;
+
+    // Fan 2 speed controls
+    fanControls[5].touchID = F25;
+    fanControls[5].uartCode = '5';
+    fanControls[5].fanSpeed = &fan2;
+    fanControls[5].ledStatus = &ld2;
+    fanControls[5].pressedFlag = false;
+
+    fanControls[6].touchID = F24;
+    fanControls[6].uartCode = '6';
+    fanControls[6].fanSpeed = &fan2;
+    fanControls[6].ledStatus = &ld2;
+    fanControls[6].pressedFlag = false;
+
+    fanControls[7].touchID = F23;
+    fanControls[7].uartCode = '7';
+    fanControls[7].fanSpeed = &fan2;
+    fanControls[7].ledStatus = &ld2;
+    fanControls[7].pressedFlag = false;
+
+    fanControls[8].touchID = F22;
+    fanControls[8].uartCode = '8';
+    fanControls[8].fanSpeed = &fan2;
+    fanControls[8].ledStatus = &ld2;
+    fanControls[8].pressedFlag = false;
+
+    fanControls[9].touchID = F21;
+    fanControls[9].uartCode = '9';
+    fanControls[9].fanSpeed = &fan2;
+    fanControls[9].ledStatus = &ld2;
+    fanControls[9].pressedFlag = false;
+}
+
+
+
+
+
